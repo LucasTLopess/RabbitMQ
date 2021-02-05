@@ -10,6 +10,25 @@ RabbitMQ servidor de mensageria open source desenvolvido em Erlang.
     http://localhost:15672/
     
  - Você pode acessar com usuario e senha padrão
-      User :    guest
-      Password: guest
+      -> User :    guest
+      -> Password: guest
+   
+#Após clonar o repositorio 
+
+  https://github.com/LucasTroleiz/RabbitMQ.git
+
+Você pode carregar o projeto na sua ide, e dentro dela executar os seguintes comandos.
+
+    mvn clean package
+
+Na pasta raiz rode o seguinte comando para rodar o sender
+Utilize este para enviar, simplesmente executando o comando.
+
+    java -jar target/RabbitMQ-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,sender
+
+Na pasta raiz rode o seguinte comando para rodar o receiver
+Utilize este para receber, simplesmente executando o comando.
+
+    java -jar target/RabbitMQ-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,receiver
+
 
