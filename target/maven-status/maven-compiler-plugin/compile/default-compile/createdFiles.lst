@@ -1,0 +1,8 @@
+br\com\troleiz\RabbitMQ\RabbitMQ\tut2\Tut2Receiver.class
+br\com\troleiz\RabbitMQ\RabbitMQ\RabbitAmqpTutorialsApplication.class
+br\com\troleiz\RabbitMQ\RabbitMQ\tut1\Tut1Receiver.class
+br\com\troleiz\RabbitMQ\RabbitMQ\RabbitAmqpTutorialsRunner.class
+br\com\troleiz\RabbitMQ\RabbitMQ\tut1\Tut1Config.class
+br\com\troleiz\RabbitMQ\RabbitMQ\tut1\Tut1Sender.class
+br\com\troleiz\RabbitMQ\RabbitMQ\tut2\Tut2Sender.class
+br\com\troleiz\RabbitMQ\RabbitMQ\tut2\Tut2Config.class
